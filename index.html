@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Cat Collector Game by Albert Tangtheinkul</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center bg-primary">
+                <h1>Cat Collector</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-left bg-info">
+                <h2>Game Rules</h2>
+                <p>You will be given a random number at the start of the game.
+                </p>
+                <p> There are four cats below. By clicking on a cat, you will add a specific amount of points to your total score.
+                </p>
+                <p> You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number. </p>
+                <p> The value of each cat is hidden from you until you click it.
+                </p>
+                <p>Each time when the game starts, the game will change the value of each cat.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 text-left bg-warning">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Number to Guess:</h1>
+                    </div>
+                    <div class="col-md-12 text-center">
+                        <h1> <span id="number-to-guess"></span></h1>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-6 text-left bg-success">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Wins: <span id="wins"></span></h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Losses: <span id="losses"></span></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-block ">
+            <div class="col-xs-3 item">
+                <img class="crystal1 crystal-image img-responsive img-thumbnail" src="http://lorempixel.com/300/200/cats/1">
+            </div>
+            <div class="col-xs-3 item">
+                <img class="crystal2 crystal-image img-responsive img-thumbnail" src="http://lorempixel.com/300/200/cats/2">
+            </div>
+            <div class="col-xs-3 item">
+                <img class="crystal3 crystal-image img-responsive img-thumbnail" src="http://lorempixel.com/300/200/cats/3">
+            </div>
+            <div class="col-xs-3 item">
+                <img class="crystal4 crystal-image img-responsive img-thumbnail" src="http://lorempixel.com/300/200/cats/4">
+            </div>
+        </div>
+        <div class="row alert alert-info ">
+            <div class="col-xs-12">
+                <h1>Your Total Score: <span class="" id="score"></span></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js">
+    </script>
+</body>
+
+</html>

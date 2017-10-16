@@ -1,0 +1,9 @@
+body {
+	    background-image: url("../images/arab_tile.png");
+
+}
+
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
